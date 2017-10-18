@@ -1,6 +1,6 @@
 # Enter your code here. Read input from STDIN. Print output to STDOUT
 # https://www.hackerrank.com/challenges/forecasting-passenger-traffic/problem
-input = "data.txt"
+input = "forecasting-passenger-traffic/data.txt"
 # input = "stdin"
 data <- suppressWarnings(read.table(input,skip = 1))
 colnames(data) = c("period","passeners")
